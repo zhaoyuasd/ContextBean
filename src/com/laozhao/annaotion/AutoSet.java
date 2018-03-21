@@ -12,5 +12,5 @@ import java.lang.annotation.Target;
 @Retention(RUNTIME)
 @Target(FIELD)
 public @interface AutoSet {
-   String beanName();
+   String value();
 }
